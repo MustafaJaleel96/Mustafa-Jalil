@@ -1,0 +1,32 @@
+.modal {
+  position: fixed;
+  z-index: 999;
+  background-color: #00000068;
+  /* backdrop-filter: blur(8px); */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadIn 0.3s;
+}
+
+.modal .modal-content {
+  padding: 16px;
+  background-color: #D9D9D9;
+  border-radius: 8px;
+  box-shadow: 0px 3px 6px 2px #0000001a;
+  z-index: 999;
+}
+
+
+@keyframes fadIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

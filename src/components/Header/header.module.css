@@ -1,0 +1,23 @@
+.header{
+    border-bottom: 1px solid #ccc;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.admin{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.admin .avatar{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #eee;
+}

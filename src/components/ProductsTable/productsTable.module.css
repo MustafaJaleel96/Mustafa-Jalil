@@ -1,0 +1,71 @@
+.table {
+  margin-top: 40px;
+}
+
+.table table {
+  width: 100%;
+}
+
+.table table thead {
+  background-color: #eee;
+}
+.table table thead th {
+  text-align: left;
+  padding: 8px;
+}
+.table table tbody td {
+  text-align: left;
+  padding: 8px;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top .addNew button{
+  height: 32px;
+  border: none;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  width: 120px;
+}
+.top .search input{
+  height: 32px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+.top .search button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding-left: 10px;
+}
+.top .search{
+  border: 2px solid #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+}
+.editBtn {
+  border: none;
+  height: 32px;
+  padding: 0px 14px;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #eee;
+  transition: 0.3s;
+}
+.actions{
+  display: flex;
+}
+
+.deleteBtn:hover,
+.editBtn:hover {
+  opacity: 0.8;
+}
+.deleteBtn:active,
+.editBtn:active {
+  opacity: 0.1;
+}
