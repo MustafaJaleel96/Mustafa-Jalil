@@ -13,7 +13,7 @@ export const ProductsTable = () => {
   const [value,setValue]= useState("")
   const { setIsOpen, setId, setTitle, setDescription, setPrice } =
     useAppStore();
-
+//still
   const getProducts = () => {
     fetch(`https://dummyjson.com/products/search?q=${search}`)
       .then((res) => res.json())
